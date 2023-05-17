@@ -16,7 +16,8 @@ body {
     color: #fff;
     height: 100%;
     font-weight: 600;
-    background: linear-gradient(60deg, #5a34ff, #4add88);
+    background-image: linear-gradient(60deg, #5a34ff, #4add88);
+    background-repeat: no-repeat;
 }
 
 .wrapper-inner {
@@ -41,7 +42,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 27%;
+    left: 38%;
     top: 30%;
     font-size: 15px;
     width: 400px;
@@ -56,6 +57,69 @@ body {
         &:hover {
             box-shadow: 3px 5px 15px 2px #222222a1;
             transform: scale(1.07);
+        }
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .wrapper-box {
+        left: 25%;
+    }
+}
+@media only screen and (max-width: 674px) {
+    .wrapper-box {
+        left: 15%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .wrapper-box {
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 543px) {
+    .wrapper-box {
+        .wrapper-inner {
+            h4 {
+                font-size: 13px;
+            }
+
+            #textGradient {
+                font-size: 15px;
+            }
+            width: 300px;
+        }
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .wrapper-box {
+        .wrapper-inner {
+            h4 {
+                font-size: 8px;
+            }
+
+            #textGradient {
+                text-align: center;
+                font-size: 7px;
+            }
+            width: 260px;
+        }
+        left: 5%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .wrapper-box {
+        left: 0px;
+        .wrapper-inner {
+            h4 {
+                font-size: 8px;
+            }
+
+            #textGradient {
+                text-align: center;
+                font-size: 7px;
+            }
+            width: 260px;
         }
     }
 }

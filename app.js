@@ -34,7 +34,7 @@ const setGradient = () => {
     let value2 = getGradient();
     let numDeg = Math.trunc(Math.random() * 360);
     let result = `linear-gradient(${numDeg}deg, ${value1}, ${value2})`;
-    body.style.background = result;
+    body.style.backgroundImage = result;
     elP.textContent = result;
 };
 
