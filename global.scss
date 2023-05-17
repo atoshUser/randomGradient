@@ -109,17 +109,18 @@ body {
 }
 @media only screen and (max-width: 400px) {
     .wrapper-box {
+        width: 100%;
         left: 0px;
         .wrapper-inner {
             h4 {
-                font-size: 8px;
+                font-size: 18px;
             }
 
             #textGradient {
                 text-align: center;
-                font-size: 7px;
+                font-size: 20px;
             }
-            width: 260px;
+            width: 350px;
         }
     }
 }

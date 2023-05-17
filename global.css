@@ -104,16 +104,17 @@ body {
 }
 @media only screen and (max-width: 400px) {
   .wrapper-box {
+    width: 100%;
     left: 0px;
   }
   .wrapper-box .wrapper-inner {
-    width: 260px;
+    width: 350px;
   }
   .wrapper-box .wrapper-inner h4 {
-    font-size: 8px;
+    font-size: 18px;
   }
   .wrapper-box .wrapper-inner #textGradient {
     text-align: center;
-    font-size: 7px;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=global.css.map */
